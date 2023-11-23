@@ -55,6 +55,8 @@ python img_stitcher_day/bin/stitchit_flat.py img_stitcher_day/imgs/migraine_stit
 ## ChatGPT4 Conversation
 Wherein, chatgpt wrote [stitchit_cyl2.py](img_stitcher_day/bin/stitchit_cyl2.py) to flatten the cylinder, and [stitchit_flat.py](img_stitcher_day/bin/stitchit_flat.py) to stitch the flattened images together.
 
+  * Time to develop working code, without the overhead of documenting and sorting out issues with taking photos, would have been 30-45m. This task, I believe, would have taken me many hours working solo.
+
 **FUNNY!  This was my AI assisted summary of the below... whoa**
 
 >  Over the course of 3hrs, I had a conversation with chatGPT4 about this problem.  The conversation is below.  I have edited out the parts of the conversation that were not relevant to the problem.  I have also edited out the parts of the conversation that were not relevant to the solution.  I have also edited out the parts of the conversation that were not relevant to the solution.  I have also edited out the parts of the conversation that were not relevant to the solution.  I have also edited out the parts of the conversation that were not relevant to the solution.  I have also edited out the parts of the conversation that were not relevant to the solution.  I have also edited out the parts of the conversation that were not relevant to the solution.  I have also edited out the parts of the conversation that were not relevant to the solution.  I have also edited out the parts of the conversation that were not relevant to the solution.
