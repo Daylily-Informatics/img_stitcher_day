@@ -34,7 +34,7 @@ if stitched is not None:
     unwrapped = cylindrical_unwrap(stitched)
 
     # Save or display the result
-    cv2.imwrite(out_stitched_png_path_and_prefix + "_stitched_unwrapped.png", unwrapped)
+    #cv2.imwrite(out_stitched_png_path_and_prefix + "_stitched_unwrapped.png", unwrapped)
     cv2.imwrite(out_stitched_png_path_and_prefix + "_stitched.png", stitched)
     #cv2.imshow("Stitched and Unwrapped Image", unwrapped)
     #cv2.waitKey(0)
