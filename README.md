@@ -22,10 +22,10 @@
 
 ### Input Images
   #### Left Image
-  ![main image](img_stitcher_day/imgs/migraine_a.png)
+  <img width=200 src=img_stitcher_day/imgs/migraine_a.png />
   
   #### Right Image
-  ![main image](img_stitcher_day/imgs/migraine_b.png)
+ <img width=200 src=img_stitcher_day/imgs/migraine_b.png/>
 
 ### Flatten Images
 
@@ -37,11 +37,13 @@ python img_stitcher_day/bin/stitchit_cyl2.py img_stitcher_day/imgs/migraine_b.pn
 ```
 
 #### Flatened Images
+The images end up squished a bit, and black bands appear top and bottom.  Something to sort out still.
+
 ##### Left Flattened Image
-  ![main image](img_stitcher_day/imgs/migraine_a_flat.png)
+  <img width=200 src=img_stitcher_day/imgs/migraine_a_flat.png/>
 
 ##### Right Flattened Image
-  ![main image](img_stitcher_day/imgs/migraine_b_flat.png)
+<img width=200 src=img_stitcher_day/imgs/migraine_b_flat.png />
 
 
 ### Stitch Flattened Images
@@ -52,7 +54,7 @@ python img_stitcher_day/bin/stitchit_flat.py img_stitcher_day/imgs/migraine_stit
 
 #### Stiched Image
 
-  ![main image](img_stitcher_day/imgs/migraine_stitched_stitched.png)
+<img width=200 src=img_stitcher_day/imgs/migraine_stitched_stitched.png />
 
 
 
