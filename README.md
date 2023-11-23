@@ -1,5 +1,9 @@
 # Stitching Together Overlapping Images Of The Outside of A Cylinder Into A Single Flattened Image Which Reflects The Surface of The Cylinder (correcting for distortions from the curved surface in each original image)
+
 ## or, 'How I Have Been Collaborating w/chatGPT4'
+
+  * I need the capability to process images of the outside surface of a cylinder & decided to document my development process now that I partner with chatgpt4 most of the time when exploring problem spaces. Here is a worked example.
+
 
 ## Problem Statement
 
