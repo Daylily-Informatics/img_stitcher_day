@@ -30,10 +30,11 @@ def unwrap_cylinder(image, cylinder_radius):
 # Load the image
 image_path = 'path_to_your_cylinder_image.png'  # replace with your image path
 image = cv2.imread(sys.argv[1])
+out_png = sys.argv[2]
 
 # Cylinder unwrapping
 cylinder_radius = 25  # Radius for a 100mm diameter cylinder
 unwrapped_image = unwrap_cylinder(image, cylinder_radius)
 
 # Save the unwrapped image
-cv2.imwrite('unwrapped_cylinder_corrected.png', unwrapped_image)
+cv2.imwrite(out_png, unwrapped_image)
