@@ -1,4 +1,5 @@
-# How I Have Been Collaborating w/chatGPT4 (a worked example)
+# Stitching Together Overlapping Images Of The Outside of A Cylinder Into A Single Flattened Image Which Reflects The Surface of The Cylinder (correcting for distortions from the curved surface in each original image)
+## or, 'How I Have Been Collaborating w/chatGPT4'
 
 ## Problem Statement
 
