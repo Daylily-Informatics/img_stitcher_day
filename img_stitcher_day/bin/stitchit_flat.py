@@ -1,3 +1,4 @@
+import sys
 import cv2
 import numpy as np
 
@@ -21,8 +22,9 @@ def cylindrical_unwrap(image):
     # This is a placeholder for the actual unwrapping algorithm
     return image
 
-# List of image paths
-image_paths = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"]
+# List of image paths in PNG format
+out_stitched_png_path_and_prefix = sys.argv[1]
+image_paths = [sys.argv[2], sys.argv[3]]
 images = load_images(image_paths)
 
 # Stitch images
@@ -32,7 +34,8 @@ if stitched is not None:
     unwrapped = cylindrical_unwrap(stitched)
 
     # Save or display the result
-    cv2.imwrite("stitched_unwrapped.jpg", unwrapped)
+    cv2.imwrite(out_stitched_png_path_and_prefix + "_stitched_unwrapped.png", unwrapped)
+    cv2.imwrite(out_stitched_png_path_and_prefix + "_stitched.png", stitched)
     cv2.imshow("Stitched and Unwrapped Image", unwrapped)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
