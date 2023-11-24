@@ -73,7 +73,7 @@ Wherein, chatgpt wrote [stitchit_cyl2.py](img_stitcher_day/bin/stitchit_cyl2.py)
 
 ### Prompt 1
 
-> write python code which given 4 images taken of a test tube held upright, will stitch the images together in a way the new images displays the entire outside surface of the tube in one flat image
+> <img src="http://flux.glass/format_gh_text?txt=write+python+code+which+given+4+images+taken+of+a+test+tube+held+upright%2C+will+stitch+the+images+together+in+a+way+the+new+images+displays+the+entire+outside+surface+of+the+tube+in+one+flat+image&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
 
 ### Reply 1
 
@@ -158,7 +158,7 @@ if stitched is not None:
 
 ### Prompt 2
 
-> change stitch code to use png files
+> <img src="http://flux.glass/format_gh_text?txt=change+stitch+code+to+use+png+files&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
 
 ### Reply 2
 
@@ -218,7 +218,7 @@ if stitched is not None:
 
 # Prompt 3
 
-> This is not working
+> <img src="http://flux.glass/format_gh_text?txt=This+is+not+working&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
 
 ```python
 
@@ -263,7 +263,9 @@ Out[2]: (1, None)
 
 # Prompt 4 
 
-> save stitched to new png
+> <img src="http://flux.glass/format_gh_text?txt=save+stitched+to+new+png&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
+
+
 
 ### Reply 4
 
@@ -295,7 +297,7 @@ else:
 
 ### Prompt 5
 
-> how do i stitch together several overlapping images of the outside of a cylinder, considering the distortion the cylinder causes at the left and right edges of each picture
+> <img src="http://flux.glass/format_gh_text?txt=how+do+i+stitch+together+several+overlapping+images+of+the+outside+of+a+cylinder%2C+considering+the+distortion+the+cylinder+causes+at+the+left+and+right+edges+of+each+picture&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
 
 ### Reply 5
 
@@ -374,7 +376,7 @@ Distortion Correction: This is a critical step. You might need to model the cyli
 
 ### Prompt 6
 
-> what would the corrections need to be if the tube diameter is 50mm and the photo distance to the outer surface of the cylinder is 50mm
+> <img src="http://flux.glass/format_gh_text?txt=what+would+the+corrections+need+to+be+if+the+tube+diameter+is+50mm+and+the+photo+distance+to+the+outer+surface+of+the+cylinder+is+50mm&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
 
 #   Reply 6
 
@@ -444,7 +446,7 @@ cv2.imwrite('corrected_image.png', corrected_image)
 
 ### Prompt 7
 
-> thank you
+> <img src="http://flux.glass/format_gh_text?txt=thank+you&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
 
 ### Reply 7
 
@@ -455,8 +457,7 @@ cv2.imwrite('corrected_image.png', corrected_image)
 
 ### Prompt 8
 
-> the image of the cylinder is a portrait image with the cylinder top off the top edge of the photo and the bottom of the cylinder off of the bottom edge of the photo.
-> write python code to take a picture of a colored cylinder with text on it surface, oriented top up and bottom down in a portrait style image, with a black background, and flatten the image of the cylinder correcting for the curvature of the cylinder saving that as a new png
+> <img src="http://flux.glass/format_gh_text?txt=the+image+of+the+cylinder+is+a+portrait+image+with+the+cylinder+top+off+the+top+edge+of+the+photo+and+the+bottom+of+the+cylinder+off+of+the+bottom+edge+of+the+photo.++write+python+code+to+take+a+picture+of+a+colored+cylinder+with+text+on+it+surface%2C+oriented+top+up+and+bottom+down+in+a+portrait+style+image%2C+with+a+black+background%2C+and+flatten+the+image+of+the+cylinder+correcting+for+the+curvature+of+the+cylinder+saving+that+as+a+new+png&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
 
 ### Reply 8
 
@@ -534,7 +535,7 @@ If the text on the cylinder is significantly distorted or wraps around the cylin
 
 ### Prompt 9
 
-> image looks better with radius 100, but is squashed from top to bottom by about 40%
+> <img src="http://flux.glass/format_gh_text?txt=image+looks+better+with+radius+100%2C+but+is+squashed+from+top+to+bottom+by+about+40%25&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
 
 
 ### Reply 9
@@ -595,7 +596,9 @@ cv2.imwrite('unwrapped_cylinder_corrected.png', unwrapped_image)
 
 ### Prompt 10
 
-> cylinder is 100mm tall
+> <img src="http://flux.glass/format_gh_text?txt=cylinder+is+100mm+tall&bg_color=%231c1717&txt_color=%236f66f0&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=800&ret_type=img" />
+
+
 
 ### Reply 10
 
@@ -656,14 +659,16 @@ cv2.imwrite('unwrapped_cylinder_corrected.png', unwrapped_image)
 
 
 > In this script, the expected_height is set to be the same as the original image's height. This is a starting point and might need to be adjusted based on the specific perspective and portion of the cylinder visible in your image.
-> 
 
-# Etc
+> Remember, this process involves approximation and might require some fine-tuning to achieve the desired aspect ratio. If the top and bottom of the cylinder are not visible in the photo, it becomes challenging to perfectly calculate the unwrapped height, and some trial and error may be necessary.
+
+
+# Etc.
 
 [Insert Styled Dynamic Text Into Markup!](https://github.com/Daylily-Informatics/github_markdown_text_colorizer/tree/main)_
 
 <img src="http://flux.glass/format_gh_text?txt=...+like+so&bg_color=%23454149&txt_color=%2361edff&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=249&ret_type=img" />
-> Remember, this process involves approximation and might require some fine-tuning to achieve the desired aspect ratio. If the top and bottom of the cylinder are not visible in the photo, it becomes challenging to perfectly calculate the unwrapped height, and some trial and error may be necessary.
+
 
 
 
