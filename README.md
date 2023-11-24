@@ -656,7 +656,13 @@ cv2.imwrite('unwrapped_cylinder_corrected.png', unwrapped_image)
 
 
 > In this script, the expected_height is set to be the same as the original image's height. This is a starting point and might need to be adjusted based on the specific perspective and portion of the cylinder visible in your image.
+> 
 
+# Etc
+
+[Insert Styled Dynamic Text Into Markup!](https://github.com/Daylily-Informatics/github_markdown_text_colorizer/tree/main)_
+
+<img src="http://flux.glass/format_gh_text?txt=...+like+so&bg_color=%23454149&txt_color=%2361edff&font=Monoid-Regular-HalfTight-Dollar-0-1-l&font_size=16&width=249&ret_type=img" />
 > Remember, this process involves approximation and might require some fine-tuning to achieve the desired aspect ratio. If the top and bottom of the cylinder are not visible in the photo, it becomes challenging to perfectly calculate the unwrapped height, and some trial and error may be necessary.
 
 
