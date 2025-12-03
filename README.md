@@ -4,7 +4,7 @@
 
   * I need the capability to process images of the outside surface of a cylinder & decided to document my development process when working with chatgpt4.
 
-
+ 
 ## Problem Statement
 
 > Write code which will stitch together overlapping images of the outside of a cylinder into a single image.  Ideally one which OCR can then be run on any barcodes or text on the surface of the cylinder.
